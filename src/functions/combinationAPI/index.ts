@@ -60,7 +60,7 @@ export const handler = async (event: APIGatewayProxyEvent) => {
         });
 
     } catch (error) {
-        console.log('erro', error);
+        console.log('error', error);
         return formatJSONResponse({
             statusCode: 502,
             data: {
