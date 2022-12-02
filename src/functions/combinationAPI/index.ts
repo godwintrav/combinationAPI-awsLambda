@@ -21,7 +21,7 @@ export const handler = async (event: APIGatewayProxyEvent) => {
 
         const deals = await axios.get("https://www.cheapshark.com/api/1.0/deals?storeID=1&upperPrice=15", {
             headers: {
-                "Accept-Encoding": "nulll"
+                "Accept-Encoding": "null"
             }
         });
 
