@@ -14,7 +14,7 @@ export const handler = async (event: APIGatewayProxyEvent) => {
             return formatJSONResponse({
                 statusCode: 400,
                 data: {
-                    message: "Missing currency query paramete",
+                    message: "Missing currency query parameter",
                 },
             });
         }
